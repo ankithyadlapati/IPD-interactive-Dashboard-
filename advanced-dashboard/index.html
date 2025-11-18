@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>My Interactive Dashboard</h1>
+            <button id="theme-toggle">Toggle Dark/Light</button>
+        </header>
+
+        <section class="clock-weather">
+            <div class="clock" id="clock"></div>
+            <div class="weather" id="weather">Loading weather...</div>
+        </section>
+
+        <section class="todo">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add a task...">
+            <button id="add-todo">Add</button>
+            <ul id="todo-list"></ul>
+        </section>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Project 1</h3>
+                    <p>Click to see details</p>
+                </div>
+                <div class="card">
+                    <h3>Project 2</h3>
+                    <p>Click to see details</p>
+                </div>
+                <div class="card">
+                    <h3>Project 3</h3>
+                    <p>Click to see details</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
